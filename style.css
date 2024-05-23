@@ -13,8 +13,8 @@ body {
 }
 
 .card {
-  height: 320px;
-  max-height: 320px;
+  height: 370px;
+  max-height: 370px;
   max-width: 290px;
   margin: 10px 0;
 }
@@ -28,4 +28,9 @@ body {
 
 .card-body-large {
   padding: 16px;
+}
+
+#sidebar {
+  display: none;
+  background-color: white;
 }

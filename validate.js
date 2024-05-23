@@ -3,7 +3,7 @@ function validate() {
   var password = document.getElementById("floatingPassword").value;
 
   if (email == "admin@admin.com" && password == "admin") {
-    window.location = "index.html"; 
+    window.location.href = "./index.html"; 
   } else {
     alert("Credenciales incorrectas");
   }

@@ -23,6 +23,7 @@ function updatecart() {
     cartItems.appendChild(li);
   });
   const totalElement = document.getElementById("total");
+  totalElement.innerText = "Total: " + total;
 }
 
 function removeItem(index) {
